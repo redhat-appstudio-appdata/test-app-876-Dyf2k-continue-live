@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: fbc-sample-repo-obe3
     spec:
       containers:
-      - image: fbc:latest
+      - image: quay.io/redhat-user-workloads/build-templates-e2e/test-app-876/fbc-sample-repo-obe3@sha256:97ff4e72759f2abdbeb8d8b18daa836b386c858761e5e9edc29278fbf1c806e7
         name: fbc
         ports:
         - containerPort: 50051
