@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: nodejs-no-dockerfile-uk8m
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/redhat-user-workloads/build-templates-e2e/test-app-876/nodejs-no-dockerfile-uk8m@sha256:ec9f34437acbd21a1e30c935d2096ecbad8d9fb0b4c13577e86a7f867aaaa1b9
         name: my-nodejs
         ports:
         - containerPort: 3001
