@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-python-basic-ajpe
     spec:
       containers:
-      - image: python-image:latest
+      - image: quay.io/redhat-user-workloads/build-templates-e2e/test-app-876/devfile-sample-python-basic-ajpe@sha256:7c7e2b80b2c3aa598874b3f28c890f5c301a6a0054747163f43c69827b82af94
         name: my-python
         ports:
         - containerPort: 8081
