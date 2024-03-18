@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: e2e-tests-use-latest-parent-image-utna
     spec:
       containers:
-      - image: image
+      - image: quay.io/redhat-user-workloads/build-templates-e2e/test-app-876/e2e-tests-use-latest-parent-image-utna@sha256:09b8d1c5121fa46ed05e42ea76d80f1fdc4ae98cdfcbc22c9211af7d92998b37
         imagePullPolicy: Always
         name: container-image
         ports:
